@@ -1,0 +1,76 @@
+body {
+  background-color: #878E88;
+  font-family: Josefin Slab, serif;
+  color: #1C1C1B;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+  font-family: Patrick Hand SC, cursive;
+}
+
+h1 {
+  color: #86032A;
+}
+
+h2 {
+  color: #2A6041;
+}
+
+h3 {
+  color: #363636;
+}
+
+a:hover {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #86032A;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card{
+  background: #FFFFFE;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  box-shadow: 6px 6px 6px #02182B63;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#avatar {
+    border-radius: 50%;
+}
+
+.btn-red {
+  background-color: #2A6041;
+  color: white;
+  font-weight: 500;
+  padding:10px;
+  border-radius: 4px;
+}
+
+.btn-red:hover {
+  background-color: #02182b;
+  color: #02182B;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
